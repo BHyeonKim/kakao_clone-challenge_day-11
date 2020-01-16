@@ -45,3 +45,27 @@
 .back_btn{
     font-size: 20px;
 }
+
+.photos{
+    display: flex;
+    margin-top: 210px;
+    justify-content: flex-end;
+}
+
+.photos .photos__photo{
+    width: 50px;
+    height: 50px;
+    margin: 0px 5px;
+    border-radius: 5px;
+}
+
+.photos .photos__more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #3F67FF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
