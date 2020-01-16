@@ -1,0 +1,23 @@
+@import "reset.css";
+
+.background{
+    box-sizing: border-box;
+    width: 410px;
+    height: 870px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone{
+    box-sizing: border-box;
+    width: 380px;
+    height: 825px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, transparent, #F3F4F7),url(../images/bgImg.jpg);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-size: 410px 400px; 
+    background-color: #F3F4F7;
+}
